@@ -164,65 +164,61 @@ Compilar y ejecutar con Node.js
 1. Compilar el archivo TypeScript:
 
 
-npx tsc src\exercises\4-asercion-de-tipados\index.ts
-npx tsc src\exercises\5-asignacion-tipados\index.ts
-npx tsc src\exercises\6-declaracion-de-tipados\index.ts
-npx tsc src\exercises\7-tipados-genericos\index.ts
-npx tsc src\exercises\8-tipados-compuestos\index.ts
-npx tsc src\exercises\9-tipados-genericos-discriminativos\index.ts
-npx tsc src\exercises\10-asincronismo\index.ts
-npx tsc src\exercises\11-declaraciones-de-tipado\index.ts
-npx tsc src\exercises\12-declaraciones-de-tipados-genericos\index.ts
-npx tsc src\exercises\13-aumentacion-de-modulos\index.ts
-npx tsc src\exercises\14-construir-manipulador-de-objetos\index.ts
-npx tsc src\exercises\15-construir-pick\index.ts
-npx tsc src\exercises\16-construir-includes\index.ts
-npx tsc src\exercises\17-capitalize\index.ts
-npx tsc src\exercises\18-construir-return-type\index.ts
-npx tsc src\exercises\19-construir-omit\index.ts
-npx tsc src\exercises\20-construir-length\index.ts
-
+- npx tsc src\exercises\4-asercion-de-tipados\index.ts
+- npx tsc src\exercises\5-asignacion-tipados\index.ts
+- npx tsc src\exercises\6-declaracion-de-tipados\index.ts
+- npx tsc src\exercises\7-tipados-genericos\index.ts
+- npx tsc src\exercises\8-tipados-compuestos\index.ts
+- npx tsc src\exercises\9-tipados-genericos-discriminativos\index.ts
+- npx tsc src\exercises\10-asincronismo\index.ts
+- npx tsc src\exercises\11-declaraciones-de-tipado\index.ts
+- npx tsc src\exercises\12-declaraciones-de-tipados-genericos\index.ts
+- npx tsc src\exercises\13-aumentacion-de-modulos\index.ts
+- npx tsc src\exercises\14-construir-manipulador-de-objetos\index.ts
+- npx tsc src\exercises\15-construir-pick\index.ts
+- npx tsc src\exercises\16-construir-includes\index.ts
+- npx tsc src\exercises\17-capitalize\index.ts
+- npx tsc src\exercises\18-construir-return-type\index.ts
+- npx tsc src\exercises\19-construir-omit\index.ts
+- npx tsc src\exercises\20-construir-length\index.ts
 
 2. Renombrar el archivo generado de .js  a  .cjs
 
-
-ren C:\reto-typescript\src\exercises\4-asercion-de-tipados\index.js index.cjs
-ren C:\reto-typescript\src\exercises\5-asignacion-tipados\index.js index.cjs
-ren C:\reto-typescript\src\exercises\6-declaracion-de-tipados\index.js index.cjs
-ren C:\reto-typescript\src\exercises\7-tipados-genericos\index.js index.cjs
-ren C:\reto-typescript\src\exercises\8-tipados-compuestos\index.js index.cjs
-ren C:\reto-typescript\src\exercises\9-tipados-genericos-discriminativos\index.js index.cjs
-ren C:\reto-typescript\src\exercises\10-asincronismo\index.js index.cjs
-ren C:\reto-typescript\src\exercises\11-declaraciones-de-tipado\index.js index.cjs
-ren C:\reto-typescript\src\exercises\12-declaraciones-de-tipados-genericos\index.js index.cjs
-ren C:\reto-typescript\src\exercises\13-aumentacion-de-modulos\index.js index.cjs
-ren C:\reto-typescript\src\exercises\14-construir-manipulador-de-objetos\index.js index.cjs
-ren C:\reto-typescript\src\exercises\15-construir-pick\index.js index.cjs
-ren C:\reto-typescript\src\exercises\16-construir-includes\index.js index.cjs
-ren C:\reto-typescript\src\exercises\17-capitalize\index.js index.cjs
-ren C:\reto-typescript\src\exercises\18-construir-return-type\index.js index.cjs
-ren C:\reto-typescript\src\exercises\19-construir-omit\index.js index.cjs
-ren C:\reto-typescript\src\exercises\20-construir-length\index.js index.cjs
-
+- ren C:\reto-typescript\src\exercises\4-asercion-de-tipados\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\5-asignacion-tipados\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\6-declaracion-de-tipados\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\7-tipados-genericos\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\8-tipados-compuestos\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\9-tipados-genericos-discriminativos\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\10-asincronismo\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\11-declaraciones-de-tipado\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\12-declaraciones-de-tipados-genericos\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\13-aumentacion-de-modulos\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\14-construir-manipulador-de-objetos\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\15-construir-pick\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\16-construir-includes\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\17-capitalize\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\18-construir-return-type\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\19-construir-omit\index.js index.cjs
+- ren C:\reto-typescript\src\exercises\20-construir-length\index.js index.cjs
 
 3. Ejecutar el archivo JavaScript (.cjs) generado:
 
-
-node src\exercises\4-asercion-de-tipados\index.cjs
-node src\exercises\5-asignacion-tipados\index.cjs
-node src\exercises\6-declaracion-de-tipados\index.cjs
-node src\exercises\7-tipados-genericos\index.cjs
-node src\exercises\8-tipados-compuestos\index.cjs
-node src\exercises\9-tipados-genericos-discriminativos\index.cjs
-node src\exercises\10-asincronismo\index.cjs
-node src\exercises\11-declaraciones-de-tipado\index.cjs
-node src\exercises\12-declaraciones-de-tipados-genericos\index.cjs
-node src\exercises\13-aumentacion-de-modulos\index.cjs
-node src\exercises\14-construir-manipulador-de-objetos\index.cjs
-node src\exercises\15-construir-pick\index.cjs
-node src\exercises\16-construir-includes\index.cjs
-node src\exercises\17-capitalize\index.cjs
-node src\exercises\18-construir-return-type\index.cjs
-node src\exercises\19-construir-omit\index.cjs
-node src\exercises\20-construir-length\index.cjs
+- node src\exercises\4-asercion-de-tipados\index.cjs
+- node src\exercises\5-asignacion-tipados\index.cjs
+- node src\exercises\6-declaracion-de-tipados\index.cjs
+- node src\exercises\7-tipados-genericos\index.cjs
+- node src\exercises\8-tipados-compuestos\index.cjs
+- node src\exercises\9-tipados-genericos-discriminativos\index.cjs
+- node src\exercises\10-asincronismo\index.cjs
+- node src\exercises\11-declaraciones-de-tipado\index.cjs
+- node src\exercises\12-declaraciones-de-tipados-genericos\index.cjs
+- node src\exercises\13-aumentacion-de-modulos\index.cjs
+- node src\exercises\14-construir-manipulador-de-objetos\index.cjs
+- node src\exercises\15-construir-pick\index.cjs
+- node src\exercises\16-construir-includes\index.cjs
+- node src\exercises\17-capitalize\index.cjs
+- node src\exercises\18-construir-return-type\index.cjs
+- node src\exercises\19-construir-omit\index.cjs
+- node src\exercises\20-construir-length\index.cjs
 
